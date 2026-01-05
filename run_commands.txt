@@ -1,0 +1,8 @@
+# Git commands to create repo and push to GitHub (run locally)
+git init
+git branch -M main
+git add .
+git commit -m "Initial commit - SkillSwap MVP A1"
+# Create a new repo on GitHub named 'skillswap-mvp' then:
+git remote add origin https://github.com/<your-username>/skillswap-mvp.git
+git push -u origin main
